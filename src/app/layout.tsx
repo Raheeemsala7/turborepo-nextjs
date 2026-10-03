@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 };
 
 
-let x =33
+let x =33;
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
