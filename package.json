@@ -19,7 +19,8 @@
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json}": [
       "prettier --write",
-      "eslint --fix"
+      "eslint --fix",
+      "npx secretlint '**/*'"
     ]
   },
   "devDependencies": {
