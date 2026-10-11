@@ -1,0 +1,38 @@
+{
+  "provider": {
+    "type": "gemini"
+  },
+  "commit": {
+    "commitLanguage": "english",
+    "commitFormat": "conventional",
+    "useCustomInstructions": false,
+    "customInstructions": "",
+    "onlyStagedChanges": false,
+    "autoCommit": false,
+    "autoPush": false,
+    "refs": {
+      "enabled": false,
+      "source": "prompt",
+      "value": "",
+      "placement": "end",
+      "branchPattern": "[A-Z][A-Z0-9]*-[0-9]+"
+    }
+  },
+  "gemini": {
+    "model": "auto"
+  },
+  "codestral": {
+    "model": "codestral-latest"
+  },
+  "openai": {
+    "model": "gpt-3.5-turbo",
+    "baseUrl": "https://api.openai.com/v1"
+  },
+  "ollama": {
+    "baseUrl": "http://localhost:11434",
+    "model": "llama3.2"
+  },
+  "telemetry": {
+    "enabled": true
+  }
+}
