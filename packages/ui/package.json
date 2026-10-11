@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "type": "module",
+
+  "exports": {
+    "./components/button-repo": "./src/components/button-repo.tsx"
+  },
   "packageManager": "pnpm@10.17.1"
 }
