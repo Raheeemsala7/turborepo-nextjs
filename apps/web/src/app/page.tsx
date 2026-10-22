@@ -7,6 +7,7 @@ export default function Home() {
       <Button variant={"destructive"}>RRRRRRRRRRR</Button>
       <Input />
       <h1 className="text-4xl">Hello from web</h1>
+      <p className="text-4xl">RRRRRRRRRRR</p>
     </div>
   );
 }
