@@ -4,7 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start"
   },
-  "packageManager": "pnpm@10.17.1"
+  "packageManager": "pnpm@10.17.1",
+  "devDependencies": {
+    "turbo": "^2.11.10"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "10.17.1",
+      "onFail": "download"
+    }
+  }
 }
